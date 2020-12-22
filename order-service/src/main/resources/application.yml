@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_service
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: qwer
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9002
